@@ -24,12 +24,31 @@
 
 # print of sum of 10 consecutive number
 
-def sum_num(*args):
-    sum =0
-    for i in args:
-        sum += i
-    return sum
-print(sum_num(1,2,3,4,5,6,7,8,9,10))
+# def sum_num(*args):
+#     sum =0
+#     for i in args:
+#         sum += i
+#     return sum
+# print(sum_num(1,2,3,4,5,6,7,8,9,10))
+
+# i =int(input("enter a number"))
+
+
+    
+# if (i%2 )==0:
+#         print("even")
+# else:
+#         print("not a even number")
+
+
+
+
+
+
+
+
+
+
 
 
 
