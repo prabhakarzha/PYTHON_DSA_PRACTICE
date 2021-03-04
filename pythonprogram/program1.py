@@ -55,5 +55,20 @@ val=array('i',[2,3,4,5,6,7])
 val.reverse()
 print(val)
 
+i =int(input("enter a number"))
+rev =0
+while (i>0):
+    rev =(rev*10)+i%10
+    i =i//10
+print("Reverse=",rev)
+
+
+def all_total(*args):
+    total =0
+    for num in args:
+        total+=num
+    return total
+print (all_total(1,2,3,))
+
 
 
