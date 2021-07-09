@@ -29,12 +29,24 @@ c = 0
 for i in result:
     
     
-    if i == "Fail":
+    if i == "Pass":
         
         
-        c+=1
+        c=c+1
         
         print(c)
+        
+        
+        
+# write A  Python Program to sum of list value 
+
+b = [1,2,3,4,5,6,7]
+
+total = 0
+for e in b:
+    total =total +e
+print(total)
+
 
 
 
