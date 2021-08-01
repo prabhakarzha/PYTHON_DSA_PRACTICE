@@ -31,3 +31,8 @@ l1 = []
 for i in l:
     l1.append(i[::-1])
 print(l1)
+
+
+#program to sort characters of the string,first alphabet symbols followed by digits
+
+

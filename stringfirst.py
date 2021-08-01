@@ -99,6 +99,13 @@ while i < len(s):
     print(s[i])
     
     i=i+2
+    
+#   using slice method  
+
+s= input("enter some input string:")
+print('The characters present at even index:',s[0::2])
+print('The characters present at odd index:',s[1::2])
+
 
 
 
