@@ -24,6 +24,29 @@ class LinkedList:
         self.tail = newest
         self.size += 1
         
+    def addfirst(self,data):
+        # newest = Node(data,None)
+        # newest.next=self.head
+        # self.head=newest
+        if self.isempty():
+            self.head=newest
+            self.tail=newest
+        else:
+            newest.next=self.head
+            self.head=newest
+        self.size +=1
+            
+    
+    def  search(self,key):
+        p=self.head
+        index=0
+        while p:
+            if p.data==key:
+                return index
+            p=p.next
+            index += 1
+        return -1
+        
     def display(self):
         p = self.head
         while p:
@@ -40,7 +63,26 @@ L.addlast(3)
 
 L.display()
 print('size:',len(L))
+i=L.search(8)
+print('Result:',i)
+L.addfirst(15)
 
+L.display()
+print('size:',len(L))
+L.addfirst(25)
+
+L.display()
+print('size:',len(L))
+
+L.addlast(35)
+
+
+L.display()
+print('size:',len(L))
+L.addfirst(2)
+
+L.display()
+print('size:',len(L))
         
     
     
