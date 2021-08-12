@@ -28,6 +28,8 @@ class LinkedList:
         # newest = Node(data,None)
         # newest.next=self.head
         # self.head=newest
+        newest = Node(data,None)
+
         if self.isempty():
             self.head=newest
             self.tail=newest
@@ -35,6 +37,29 @@ class LinkedList:
             newest.next=self.head
             self.head=newest
         self.size +=1
+    
+    def addany(self,data,position):
+        newest = Node(data,None)
+        p =self.head
+        i =1
+        while i<position-1:
+            p = p.next
+            i= i+1
+        newest.next = p.next
+        p.next=newest
+        self.size +=1
+        
+    def removefirst(self):
+        if self.isempty():
+            print('List is empty')
+            return
+        e=self.head.data
+        self.head = self.head.next
+        self.size-=1
+        if self.isempty():
+            self.tail = None
+        return e
+        
             
     
     def  search(self,key):
@@ -83,6 +108,15 @@ L.addfirst(2)
 
 L.display()
 print('size:',len(L))
+
+L.addany(20,3)
+L.display()
+print('size:',len(L))
+
+ele=L.removefirst()
+L.display()
+print('size:',len(L))
+print('Element Removed:',ele)
         
     
     
