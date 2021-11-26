@@ -15,3 +15,12 @@ else:
     print(i)
     print("Number of candies available:",end="")
     print(n-i)
+
+
+
+
+
+
+
+
+

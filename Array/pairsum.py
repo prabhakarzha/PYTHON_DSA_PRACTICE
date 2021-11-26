@@ -16,7 +16,8 @@ def pairsum(A,size,sum):
         return count
     else:
        return -1
-arr = [8, 7, 2, 5, 3]
+# arr = [8, 7, 2, 5, 3]
+arr=[1,2,3,4,5,6,7]
 sum = 8
 print(pairsum(arr,len(arr),sum))
             

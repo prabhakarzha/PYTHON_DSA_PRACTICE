@@ -23,6 +23,7 @@ def binarysearch_recursive(A,key,l,r):
         return -1
     else:
         mid = (l+r)//2
+        # i,r is index value
         if key == A[mid]:
             return mid
         elif key < A[mid]:
