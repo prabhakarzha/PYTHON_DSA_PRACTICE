@@ -9,6 +9,8 @@ class Car:
     def fastdrive(self):
         print("maximum speed should be 40km/h")
 car=Car(4,5,"diesel")
+print(car.window)
+car.fastdrive()
 
 
 class audi(Car):

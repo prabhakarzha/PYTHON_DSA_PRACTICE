@@ -7,6 +7,7 @@ def majorityelement(arr,size):
     count=1
     for i in range(1,size):
         if(arr[i]==arr[ansindex]):
+            
             count+=1
         else:
             count-=1
@@ -15,5 +16,5 @@ def majorityelement(arr,size):
             count = 1
     return arr[ansindex]
 arr=[1,1,2,3,1]
-print(majorityelement(arr,len(arr)))        
+print(majorityelement(arr,len(arr))) 
     
