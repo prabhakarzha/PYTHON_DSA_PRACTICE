@@ -1,4 +1,4 @@
-#find largest sum in subarray
+#find largest sum contigious subarray
 
 
 
@@ -12,8 +12,10 @@ def maxsumarray(arr,size):
         elif (cursum<0):
             cursum =0
     return maxsum
-arr=[1,1,1]
-print(maxsumarray(arr,len(arr)))
+arr=[5,-4,-2,6,-1]
+print(maxsumarray(arr,len(arr))) # ❤️❤️❤️❤️❤️😂
+
+
         
 
         
