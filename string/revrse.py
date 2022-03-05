@@ -5,3 +5,8 @@ while i>=0:
     output=output+s[i]
     i=i-1
 print(output)
+
+    
+
+
+
