@@ -76,30 +76,3 @@ L.displayrev()
 
 
 
-# class Node:
-#     def __init__(self,data):
-#         self.data = data
-#         self.next = None
-#         self.prev = None
-        
-# class DoubleLinkList:
-#     def __init__(self):
-#         self.head = None
-#     def display(self):
-        
-#         p = self.head
-        
-#         while p:
-            
-#             print(p.data,end = '-->')
-            
-#             p=p.next
-#         print()
-        
-  
-            
-# L=DoubleLinkList()
-# n1=Node(10)
-# L.head = n1
-
-# L.display()

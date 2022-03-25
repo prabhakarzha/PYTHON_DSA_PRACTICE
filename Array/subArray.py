@@ -9,7 +9,6 @@ def subArray(arr,s):
             return result
     return []
 print(subArray(arr,10))
-        
             
             
             
